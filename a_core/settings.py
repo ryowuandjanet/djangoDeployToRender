@@ -43,7 +43,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
 
 INTERNAL_IPS = ['127.0.0.1','localhost:3000']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://djangodeploytorender.onrender.com' ]
+CSRF_TRUSTED_ORIGINS = ['https://djangodeploytorender.onrender.com']
 
 
 # Application definition
